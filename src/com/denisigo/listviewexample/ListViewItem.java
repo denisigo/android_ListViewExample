@@ -26,6 +26,6 @@ public interface ListViewItem {
 	 *            Root view to inflate.
 	 * @return View instance.
 	 */
-	public abstract View getView(LayoutInflater inflater, View convertView,
+	public View getView(LayoutInflater inflater, View convertView,
 			ViewGroup root);
 }
